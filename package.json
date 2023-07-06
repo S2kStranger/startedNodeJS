@@ -1,0 +1,16 @@
+{
+  "name": "startednodejs",
+  "version": "1.0.0",
+  "description": "Starting JSON",
+  "main": "app-file.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app-file.js",
+    "start-server": "nodemon app-file.js"
+  },
+  "author": "S2K",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

@@ -7,6 +7,7 @@ if(url==='/')
     fs.readFile('message.txt',(err,msg) => {
     res.write('<html>');
     res.write('<head><title>Enter Message</title></head>');
+    console.log("Jai Hind");
     res.write(msg);
     res.write('<body><form action = "/message" method="POST" ><input type="text" name="message"><button>Send</button></form></body>');
     res.write('</html>');
